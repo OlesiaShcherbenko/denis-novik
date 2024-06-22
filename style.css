@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #070707;
+}
+
+header,
+hr,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 120px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 24px;
+}
+
+.menu-item {
+  list-style: none;
+  padding-right: 40px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.menu-item a:hover {
+    color: #070707;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f6f6;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.description h2 {
+  margin-bottom: 50px;
+}
+
+.description-text {
+  width: 480px;
+  text-align: center;
+}
+
+.description-text p:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+.photo {
+  width: 1200px;
+  height: auto;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.skills p {
+  margin-bottom: 50px;
+  margin-top: 24px;
+}
+
+.skill-items {
+  display: flex;
+  list-style: none;
+}
+
+.skill-item:not(:last-of-type) {
+  margin-right: 100px;
+}
+
+.skill-item {
+}
+
+.skill-item div {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin: 0 120px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f6f6;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.portfolio h2 {
+  margin-bottom: 50px;
+}
+
+.project:not(:last-of-type) {
+  margin-bottom: 70px;
+}
+
+.project img {
+  margin-bottom: 40px;
+}
+
+.project a {
+  color: #070707;
+  cursor: pointer;
+}
+
+footer {
+  padding: 100px 0;
+}
+
+footer h2 {
+  margin-bottom: 20px;
+}
+
+footer p {
+  width: 280px;
+  text-align: center;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #070707;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 22px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.social a:not(:last-of-type) {
+  margin-right: 50px;
+}
+
+.like-me {
+  font-size: 14px;
+  color: #828282;
+  margin-top: 60px;
+}
