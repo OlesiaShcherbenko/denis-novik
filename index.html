@@ -1,11 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Denis Novik</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="container">
+      <nav>
+        <ul class="menu">
+          <li class="menu-item"><a href="">Home</a></li>
+          <li class="menu-item"><a href="">About me</a></li>
+          <li class="menu-item"><a href="">Skills</a></li>
+          <li class="menu-item"><a href="">Portfolio</a></li>
+          <li class="menu-item"><a href="">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="divider container"></div>
+
+    <main>
+      <section class="hero container">
+        <h1>Denis Novik</h1>
+        <img class="photo" src="image/hero.png" alt="denis novik" />
+      </section>
+
+      <section class="description color-section">
+        <div class="container">
+          <h2>About me</h2>
+          <div class="description-text">
+            <p>
+              Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in
+              design and everything connected with it.
+            </p>
+            <p>
+              I'm studying at courses "Web and mobile design interfaces" in
+              IT-Academy.
+            </p>
+            <p>Ready to implement excellent projects with wonderful people.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="container">
+          <h2>Skills</h2>
+          <p>I work in such programs as</p>
+          <ul class="skill-items">
+            <li class="skill-item">
+              <div>
+                <img src="image/icon-ps.svg" alt="photoshop" />
+                <p>Adobe Photoshop</p>
+              </div>
+              <img src="image/rating-ps.svg" alt="two stars" />
+            </li>
+            <li class="skill-item">
+              <div>
+                <img src="image/icon-ai.svg" alt="adobe illustrator" />
+                <p>Adobe Illustrator</p>
+              </div>
+              <img src="image/rating-ai.svg" alt="three stars" />
+            </li>
+            <li class="skill-item">
+              <div>
+                <img src="image/icon-ae.svg" alt="adobe after effects" />
+                <p>Adobe After Effects</p>
+              </div>
+              <img src="image/rating-ae.svg" alt="four stars" />
+            </li>
+            <li class="skill-item">
+              <div>
+                <img src="image/icon-figma.svg" alt="figma" />
+                <p>Figma</p>
+              </div>
+              <img src="image/rating-figma.svg" alt="five stars" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="portfolio color-section">
+        <div class="container">
+          <h2>Portfolio</h2>
+          <div class="project">
+            <img class="photo" src="image/project-1.png" alt="fashion store" />
+            <a href="#">Online fashion store - Homepage</a>
+          </div>
+          <div class="project">
+            <img class="photo" src="image/project-2.png" alt="reebok web" />
+            <a href="#">Reebok Store - Concept</a>
+          </div>
+          <div class="project">
+            <img class="photo" src="image/project-3.png" alt="braun landing" />
+            <a href="#">Braun Landing Page - Concept</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Contacts</h2>
+      <p>Want to know more or just chat? You are welcome!</p>
+      <a class="button" href="#">Send message</a>
+      <div class="social">
+        <a href="#"
+          ><img class="icon" src="image/icon-linkedin.svg" alt="linkedin"
+        /></a>
+        <a href="#"
+          ><img class="icon" src="image/icon-instagram.svg" alt="instagram"
+        /></a>
+        <a href="#"
+          ><img class="icon" src="image/icon-behance.svg" alt="behance"
+        /></a>
+        <a href="#"
+          ><img class="icon" src="image/icon-dribbble.svg" alt="dribbble"
+        /></a>
+      </div>
+      <p class="like-me">Like me on LinkedIn, Instagram, Behance, Dribble</p>
+    </footer>
+  </body>
 </html>
